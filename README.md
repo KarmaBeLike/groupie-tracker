@@ -28,7 +28,7 @@ This project focuses on building a user friendly website where it displays the b
 
 **1.Enter this command to start the program:**
 
-    go run .
+    go run ./cmd/*
 
 **2.Open the web browser and go to:**
 
@@ -39,5 +39,3 @@ This project focuses on building a user friendly website where it displays the b
     @kalmenev
     @Aishagul
 
-
-**! The Searchbar is not working yet, it is for beauty now !**
