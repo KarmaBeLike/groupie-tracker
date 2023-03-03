@@ -30,7 +30,7 @@ func Home(w http.ResponseWriter, r *http.Request) {
 		// http.Error(w, "Internal Server Error", 500)
 		return
 	}
-	err = Unmarshall()
+	err = UnmarshallArtists()
 	if err != nil {
 		log.Println(err.Error())
 		// http.Error(w, "Internal Server Error", 500)
