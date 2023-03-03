@@ -9,10 +9,14 @@
 <body>
     <div>
         <img src="{{.Image}}">
-        {{.Name}}<br>
+            {{.Name}}<br>
+        <strong>First Album: </strong>
+        {{.FirstAlbum}}<br>
+        <strong> Members: </strong>
         {{range .Members}}
             {{.}}
         {{end}}<br>
+        <strong> Concert Locations: </strong><br>
         {{range $location, $date := .DatesLocation}}
             {{$location}}
             {{range $date}}
