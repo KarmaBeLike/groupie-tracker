@@ -7,16 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <p>Groupie tracker</p>
-    <div>
-        {{range .}}
-        <a href="/artist/{{.ID}}">
-            <img src="{{.Image}}">
-        </a>
-        <div>
-            {{.Name}}
-        </div>
-        {{end}}
-    </div>
+    {{.Status}}
+    {{.ErrorMessage}}
 </body>
 </html>
